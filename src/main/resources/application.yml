@@ -3,9 +3,9 @@ spring:
     name: todotask
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/tu_basedatos
-    username: tu_usuario
-    password: tu_contraseña
+    url: jdbc:postgresql://localhost:5432/tareas_db
+    username: root
+    password: root
     driver-class-name: org.postgresql.Driver
 
     jpa:
